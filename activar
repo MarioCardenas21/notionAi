@@ -1,0 +1,8 @@
+python3 -m venv .venv
+source .venv/bin/activate
+
+
+
+python -m research.cli url \
+"https://es.wikipedia.org/wiki/Super_Mario_World_2:_Yoshi%27s_Island" \
+--out out/test_run
